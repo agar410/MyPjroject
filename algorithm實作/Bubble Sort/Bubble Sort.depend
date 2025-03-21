@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621783119 source:e:\c++\algorithm_hw\ bubble sort\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

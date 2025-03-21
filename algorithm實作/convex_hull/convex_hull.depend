@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1622296510 source:e:\c++\algorithm_hw\convex_hull\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<conio.h>
+	<dos.h>
+	<graphics.h>
+

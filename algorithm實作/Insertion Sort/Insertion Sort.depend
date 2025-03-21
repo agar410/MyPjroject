@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621783774 source:e:\c++\algorithm_hw\insertion sort\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

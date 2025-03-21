@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621825734 source:e:\c++\algorithm_hw\subset\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

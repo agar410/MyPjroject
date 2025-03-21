@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1624520941 source:e:\c++\algorithm_hw\mst\mst\main.cpp
+	"../00_Libs/nsInclude.h"
+	"../00_Libs/nsStack.h"
+	"../00_Libs/nsGraph.h"
+
+1624241466 e:\c++\algorithm_hw\mst\00_libs\nsinclude.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<cmath>
+	<string>
+	<vector>
+
+1624241276 e:\c++\algorithm_hw\mst\00_libs\nsstack.h
+	"./nsDLL.h"
+
+1624240826 e:\c++\algorithm_hw\mst\00_libs\nsdll.h
+
+1624459445 e:\c++\algorithm_hw\mst\00_libs\nsgraph.h
+	"./nsDLL.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621824172 source:e:\c++\algorithm_hw\divide and conquer_max\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
