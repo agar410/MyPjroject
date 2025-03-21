@@ -1,0 +1,100 @@
+<div>
+    <h1>點早餐系統</h1>
+
+    <form class="form-inline">
+        <label for="orderID" class="my-1 mr-2" >訂單編號</label>
+        <input type="text" class=" form-control mr-4" value="" size="12" id="orderID"
+        placeholder="YYYYMMDD0001">
+    </form>
+    <hr>
+    <div class=" custom-control custom-radio custom-control-inline" >
+        <input type="radio"
+        id="ch"
+        value="0"
+        name="styles"
+        class=" custom-control-input"
+        checked
+        />
+        <label class=" custom-control-label" for="ch">中式</label>
+    </div>
+    <div class=" custom-control custom-radio custom-control-inline" >
+        <input type="radio"
+        id="ws"
+        value="1"
+        name="styles"
+        class=" custom-control-input"
+        
+        />
+        <label class=" custom-control-label" for="ws">西式</label>
+    </div>
+    <div class=" custom-control custom-radio custom-control-inline" >
+        <input type="radio"
+        id="fr"
+        value="2"
+        name="styles"
+        class=" custom-control-input"
+        
+        />
+        <label class=" custom-control-label" for="fr">法式</label>
+    </div>   
+    <br />
+    <hr align="left" style="width: 30%; height:2px; background: #e9ecef;"/>
+    <form class="form-inline">
+        <label for="menus" class="my-1 mr-2">品名</label>
+        <select class=" custom-select mr-4" name="" id="menus"></select>
+        <label for="unitPrice" class="my-1 mr-4" >單價</label>
+         <input type="text"
+         class=" form-control mr-4"
+         id="unitPrice"
+         size="6"
+         readonly
+         />
+
+         <label for="qty" class=" my-1 mr-2">數量</label>
+         <input type="text"
+         class=" form-control mr-4"
+         id="qty"
+         value="1"
+         size="6"
+         placeholder=""
+         />
+         <label for="subTotal" class="my-1 mr-2">小計</label>
+         <input type="text" class="form-control" id="subTotal" size="6" readonly>      
+    </form>
+    <br/>
+    <fieldset>
+        <legend>點餐模式</legend>
+        <button class="btn btn-primary" type="button" name="addItem" id="addItem">
+            <i class="fas fa-cart-plus fa-fw mr-2"></i>放入購物車
+        </button>
+        <button
+        class="btn btn-danger"
+        type="button"
+        name="removeAll"
+        id ="removeAll"
+        > 
+    <i class="fas fa-trash fa-fw"></i>
+    清空購物車
+    </button>
+    <button class="btn btn-primary" type="button" name="checkOut" id="checkOut">
+        <i class=" fas fa-credit-card fa-fw mr-2"></i>結帳
+    </button>
+    </fieldset>
+    <hr/>
+    <h4>清空購物車</h4>
+    <h5>
+        訂單: <span id="txtOrderID" class="mr-4" ></span>總計: $ <span 
+        id="orderTotal">0</span> 
+    </h5>
+    <table class="table">
+        <thead>
+            <th scope="col">#</th>
+            <th scope="col">產品名稱</th>
+            <th scope="col">單價</th>
+            <th scope="col">數量</th>
+            <th scope="col">小計</th>
+            <th scope="col"></th>
+        </thead>
+        <tbody id="orderList"></tbody>
+    </table>
+</div>

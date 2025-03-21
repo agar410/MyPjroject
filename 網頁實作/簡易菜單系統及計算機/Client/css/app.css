@@ -1,0 +1,12 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.text-green{
+    color: green;
+}
+.text-blue{
+    color: blue;
+}

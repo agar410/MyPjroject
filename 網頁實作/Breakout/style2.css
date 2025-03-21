@@ -1,0 +1,15 @@
+@import url(//fonts.googleapis.com/earlyaccess/notesanstc.css);
+body {
+ background-color:#333;
+ color: #fff;
+ font-family: "Note Sans TC",sans-serif;
+
+}
+div{
+    background-color: #ffffff;
+
+  }
+  
+  h2{
+    font-family: "Note Sans TC",sans-serif;
+  }

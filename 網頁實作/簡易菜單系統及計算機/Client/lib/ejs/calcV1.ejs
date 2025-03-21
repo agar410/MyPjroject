@@ -1,0 +1,19 @@
+<form >
+    <fieldset id="fs00">
+        <legend>計算機(Boostrape)(ejs)</legend>
+        <input type="text" id="expr1" class="form-control mb-2" name="expr1" size="18" placeholder="運算式" required>
+        <input type="text" id="ans1" class="form-control mb-2" name="ans1" size="18" placeholder="答案" disabled>
+        <hr>
+        <% for(var i=0;i<aButton.length;++i){%>
+         <input type="button"
+         id="<%=aButton[i].id %>"
+         class="btn btn-primary"
+         name="<%=aButton[i].id %>"
+         value="<%=aButton[i].value %>">
+         <% if(i%5==4){ %>
+          <br><br>
+         <% } %>
+
+     <%   }  %>
+    </fieldset>
+</form>

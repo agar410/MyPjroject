@@ -1,0 +1,12 @@
+<tr id="item_<%= totalRows %>" >
+    <th scope="row" id="item_head_<%= totalRows %>" > <%=totalRows %></th>
+    <td> <%= itemName %> </td>
+    <td> <%= unitPrice %></td>
+    <td> <%= qty %></td>
+    <td> <%= subTotal %></td>
+    <td>
+        <button class="btn btn-danger" type="button" id="btn_<%= totalRows %>"
+            <i class="fas fa-trash-alt fa-fw mr-2"></i>X
+        </button>
+    </td>
+</tr>
