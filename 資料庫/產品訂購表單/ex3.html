@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .error {color: #FF0000;}
+        input[type=text] {
+              width: 25%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+            }
+
+        </style>
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">       
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ex3_action.php" method="POST" name="info" align="center">
+            <h3 style="font-family:Microsoft JhengHei;">訂貨系統</h3>    
+
+
+    <div style="width:490px;height:500px;border:3px #cccccc dashed;margin:0px auto;">
+            姓名: <input type="text" name="Name" size ="10"
+            value=""/>
+            <span class="error">*</span><br/>
+            手機: <input type="text" name="UserName" size="10"
+            value=""/>
+            <span class="error">*</span><br/>            
+        
+            產品 <br>
+            <select name="Webs[]" size="4" multiple="True">
+                <option value="w1" selected="True">iPad</option>
+                <option value="w2">iPhone</option>
+                <option value="w3">HTC</option>
+                <option value="w4">Samsong</option>
+            </select>     
+            <br>
+            付款方式: <br>
+            <input type="radio" name="Gender" value="male" checked="True">貨到付款<br>
+            <input type="radio" name="Gender" value="female" >ATM 
+            <br>
+            地址 <textarea name="comment" rows="2" cols="40"></textarea>   
+        <br><br>
+        <input type="submit" value="送出" name="Reg">          
+    </div>
+    
+    </form>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</html>

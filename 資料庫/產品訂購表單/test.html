@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ex3_action.php" method="POST" name="info">
+    性別:
+    <input type="radio" name="Gender" value="male" checked="True">男
+    <input type="radio" name="Gender" value="female" >女 <br>
+
+    電腦系統:
+    <select name="Computer" >
+        <option value="PC" selected="True">pc</option>
+        <option value="MAC" >mac</option>
+    </select>
+    瀏覽器:
+    <input type="checkbox" name="GC" checked="True">chrome
+    <input type="checkbox" name="SF" >Safari
+    <input type="checkbox" name="FF" >Firefox<br>
+
+推薦網站 <br>
+<select name="Webs[]" size="4" multiple="True">
+    <option value="w1" selected="True">chrome1</option>
+    <option value="w2">Safari</option>
+    <option value="w3">Firefox</option>
+    <option value="w4">coogl</option>
+</select>
+
+<input type="submit" value="送出">
+    </form>
+</body>
+</html>

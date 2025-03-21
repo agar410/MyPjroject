@@ -1,0 +1,22 @@
+@import url(//fonts.googleapis.com/earlyaccess/notesanstc.css);
+body {
+ background-color:hsl(89, 43%, 51%);
+ color: #fff;
+ /* font-family: "Note Sans TC",sans-serif; */
+
+ font-family: 微軟正黑體, "Microsoft JhengHei";
+}
+
+  h2{
+    font-family: "Note Sans TC",sans-serif;
+  }
+  h3{
+    font-family: "Microsoft JhengHei";
+  }
+  div {
+    background-color:#fefbd8;
+    color: #000;
+    /* font-family: "Note Sans TC",sans-serif; */
+   
+    font-family: 微軟正黑體, "Microsoft JhengHei";
+   }
